@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../Icons/Logo";
 import { HiMenuAlt1 } from "react-icons/hi";
-import MainMenu from "../sideMenu/MainMenu";
+import MainMenu from "../SharedComponent/MainMenu";
 
 type Props = {};
 

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import SettingsMain from "../src/components/SettingsMain/Index";
-import SideMenu from "../src/components/sideMenu/Index";
+import SideMenu from "../src/components/SideMenu/Index";
 import TopBar from "../src/components/TopBar/Index";
 
 export default function Home() {
@@ -15,25 +15,10 @@ export default function Home() {
       <main className="md:flex h-screen bg-brand-background-1">
         <TopBar />
         <SideMenu />
-        <div className=" w-full md:overflow-y-scroll md:overflow-x-hidden md:max-h-full md:pb-4 md:px-3  md:h-full md:pt-0  scrollbar scrollbar-thumb-brand-grey-2 scrollbar-track-brand-grey-3 relative  top-10 md:top-0 pt-0">
+        <div className=" w-full md:overflow-y-scroll md:overflow-x-hidden md:max-h-full md:pb-4 md:px-3  md:h-full md:pt-0 scrollbar scrollbar-thumb-brand-grey-2 scrollbar-track-brand-grey-3 relative  top-10 md:top-0 pt-0">
           <SettingsMain />
         </div>
       </main>
     </>
   );
 }
-
-// const scrollBarStyle = {
-//   "&::-webkit-scrollbar": {
-//     width: "8px",
-//     rounded: "full",
-//   },
-//   "&::-webkit-scrollbar-track": {
-//     boxShadow: "inset 0 0 6px rgba(0,0,0,0.00)",
-//     webkitBoxShadow: "inset 0 0 6px rgba(0,0,0,0.00)",
-//   },
-//   "&::-webkit-scrollbar-thumb": {
-//     bg: "white",
-//     outline: "none",
-//   },
-// };

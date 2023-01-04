@@ -1,17 +1,12 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
+import { user_path } from "../../utils";
+
 type Props = {
   users: number;
 };
-
 export default function StackAvatar({ users }: Props) {
-  const [srcs, setSrcs] = React.useState([
-    "/avatar.png",
-    "/avatar_1.png",
-    "/avatar_2.png",
-    "/avatar_3.png",
-    "/avatar_4.png",
-  ]);
+  const [srcs, setSrcs] = React.useState(user_path);
   useEffect(() => {
     setSrcs(srcs.slice(0, users));
   }, []);

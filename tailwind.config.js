@@ -19,6 +19,7 @@ module.exports = {
         "brand-background-1": "#F9FAFB",
         "brand-background-2": "#F9F5FF",
         "brand-background-3": "#ECFDF3",
+        "brand-background-4": "#F2F4F7",
         "brand-border-1": "#D6BBFB",
         "brand-card-1": "#53389E",
         "brand-card-2": "#6941C6",
@@ -30,6 +31,9 @@ module.exports = {
       boxShadow: {
         darker:
           "0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06)",
+      },
+      spacing: {
+        "side-size": "279px",
       },
     },
   },

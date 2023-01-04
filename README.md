@@ -39,4 +39,3 @@ Utils contains data for repeated HTML and static data
 ### `Hooks`
 
 Hooks has button selection hooks used to handle the logic for group button selections. 
- and the src folders contains all the codes apart from the page folder.

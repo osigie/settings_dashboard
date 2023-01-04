@@ -14,9 +14,9 @@ function MainMenu({ onClick }: Props) {
   const [selected, setSelected] = React.useState("Settings");
   return (
     <>
-      <div className="flex w-full border-b md:border-0 bg-white md:border-r md:pr-0 pt-9">
+      <div className="flex w-full border-b md:border-0 bg-white md:border-r md:pr-0 ">
         <div className="pt-2 w-full">
-          <div className="flex content-center gap-2 mb-6 ">
+          <div className="flex content-center gap-2 mb-6 md:pt-9">
             {/* <Logo /> */}
             <Image
               className="w-10 h-10 rounded-full "

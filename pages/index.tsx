@@ -1,8 +1,7 @@
 import Head from "next/head";
-import SettingsMain from "../src/components/SettingsMain/Index";
-import SideMenu from "../src/components/SideMenu/Index";
-import TopBar from "../src/components/TopBar/Index";
-
+import TopBar from "../components/TopBar/Index"
+import SideMenu from "../components/SideMenu/Index"
+import SettingsMain from "../components/SettingsMain/Index"
 export default function Home() {
   return (
     <>

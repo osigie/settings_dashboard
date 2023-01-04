@@ -20,7 +20,7 @@ function MainMenu({ onClick }: Props) {
             {/* <Logo /> */}
             <Image
               className="w-10 h-10 rounded-full "
-            src="/assets/Logomark.png"
+            src="/Logomark.png"
               alt=""
               width={40}
               height={40}
@@ -64,7 +64,7 @@ function MainMenu({ onClick }: Props) {
                 Check out the new dashboard view. Pages now load faster.
               </h4>
               <Image
-                src="/assets/image.png"
+                src="/Image.png"
                 alt="sidebar image"
                 width={215}
                 height={136}
@@ -84,7 +84,7 @@ function MainMenu({ onClick }: Props) {
             <div className="flex gap-3">
               <Image
                 className="w-10 h-10 rounded-full "
-                src="/assets/image.png"
+                src="/Avatar.png"
                 alt=""
                 width={10}
                 height={10}

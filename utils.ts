@@ -53,11 +53,11 @@ export const menu_data = [
 ];
 
 export const user_path = [
-  "/avatar.png",
-  "/avatar_1.png",
-  "/avatar_2.png",
-  "/avatar_3.png",
-  "/avatar_4.png",
+  "/assets/avatar.png",
+  "/assets/avatar_1.png",
+  "/assets/avatar_2.png",
+  "/assets/avatar_3.png",
+  "/assets/avatar_4.png",
 ];
 
 export const buttons_data = [
